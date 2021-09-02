@@ -1,0 +1,26 @@
+
+.main-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "first first second third"
+                        "fourth fifth fifth third";
+    height: 80vh;
+    width: 80%;
+    font-size: 1.6rem;
+}
+.main-container .post {
+    height: 100%;
+    width: 100%;   
+}
+.main-container .n1 {
+    grid-area: first;
+}
+.main-container .n2 {
+    grid-area: second;   
+}
+.main-container .n4 {
+    grid-area: fifth;
+}
+.main-container .n5 {
+    grid-area: third;
+}
